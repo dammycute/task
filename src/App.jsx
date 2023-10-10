@@ -38,7 +38,7 @@ function App() {
                 <div className="input-content">
                   <label htmlFor="Task Name">Task Name</label>
                   <input
-                      type="text"
+                      type="date"
                       placeholder="Due Date"
                       value={newTask.dueDate}
                       onChange={(e) => setNewTask({ ...newTask, dueDate: e.target.value })}
